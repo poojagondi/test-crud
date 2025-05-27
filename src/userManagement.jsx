@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { User, Plus, Edit, Trash2, RefreshCw } from "lucide-react";
 
-const API_BASE = "https://test-crud-vi9k.onrender.com";
+const API_BASE = "https://test-crud-vi9k.onrender.com/api";
 
 const UserManagementApp = () => {
   const [users, setUsers] = useState([]);
